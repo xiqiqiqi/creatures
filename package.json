@@ -1,0 +1,11 @@
+{
+  "name": "@xiqiqi/site-creatures",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "奇兽 · 珍禽异兽",
+  "scripts": {
+    "dev": "node ../oddities-core/scripts/build.mjs --config site.config.ts --dev",
+    "build": "node ../oddities-core/scripts/build.mjs --config site.config.ts"
+  }
+}
